@@ -1,0 +1,62 @@
+{
+	"folders": {},
+	"connections": {
+		"dbeaver-sample-database-sqlite-1": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "DBeaver Sample Database (SQLite)",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\hyokyun\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"url": "jdbc:sqlite:C:\\Users\\hyokyun\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"type": "dev"
+			}
+		},
+		"mysql8-1770b1489ca-7a03733e0facc6c1": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "sparta",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "sparta.cbt9ceqjwlr9.ap-northeast-2.rds.amazonaws.com",
+				"port": "3306",
+				"database": "sparta",
+				"url": "jdbc:mysql://sparta.cbt9ceqjwlr9.ap-northeast-2.rds.amazonaws.com:3306/sparta",
+				"home": "mysql_client",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-1794c78863c-ec4d7a328887c2c": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
