@@ -13,6 +13,40 @@ insert into student(number, name, age, height)
 values(2, "∏£≈∫¿Ã", 17, 173.3)
 
 
-select number, name, age, class, height from student;
+alter table student
+add is_graduated boolean default false;
 
-select * from student where class is null;
+select * from student; 
+
+alter table student 
+drop number;
+
+select * from student;
+
+alter table student 
+modify column name varchar(30) not null;
+
+select * from student
+
+alter table student 
+add id int primary key auto_increment;
+
+select * from student;
+
+ update student 
+ set age = 18
+ where name = "∏£≈∫¿Ã";
+ 
+select * from student
+
+update student 
+set age = age + 1
+
+delete from student 
+where name = "∏£≈∫¿Ã"
+
+select * from student;
+
+drop table student;
+
+select * from student;
