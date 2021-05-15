@@ -1025,6 +1025,7 @@ select * from book where name ="RANK";
 create index name_index_to_book on book(name);
 select * from book where name = "rank";
 
+#복합인덱스 사용하기!
 select * from book where category = "Training" and is_adult = true;
 
 create index category_and_is_adult_index_to_book on book (category, is_adult);
