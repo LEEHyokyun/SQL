@@ -7,3 +7,4 @@ start transaction;
 	delete from student where id = 9;
 	select * from student;
 rollback;
+
