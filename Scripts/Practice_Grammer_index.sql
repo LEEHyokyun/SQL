@@ -1030,3 +1030,5 @@ select * from book where category = "Training" and is_adult = true;
 
 create index category_and_is_adult_index_to_book on book (category, is_adult);
 select * from book where category = "Training" and is_adult = true;
+
+show index from book;
