@@ -1,0 +1,14 @@
+CREATE TABLE SELLER (
+SELLER_ID int,
+SELLER_NAME varchar(50),
+SELLER_SERIAL_NUMBER int auto_increment primary key
+)
+
+CREATE TABLE PRODUCT (
+	PRODUCT_ID int, 
+	PRODUCT_NAME varchar(50),
+	PRODUCT_PRICE int
+	SELLER_SERIAL_NUMBER int not null,
+	foreign key (SELLER_SERIAL_NUMBER)
+	references SELLER(SELLER_SERIAL_NUMBER)
+)
